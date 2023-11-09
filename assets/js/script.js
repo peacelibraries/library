@@ -6,7 +6,7 @@ const books = [
     { title: 'Kinyarwanda for Kids', language: 'Kinyarwanda', level: 'beginner', cover: 'cover3.jpg', pdf: 'book3.pdf' },
     { title: 'Proverbs in Kinyarwanda', language: 'Kinyarwanda', level: 'advanced', cover: 'cover4.jpg', pdf: 'book4.pdf' },
     // The book provided by the user
-    { title: 'Cat and Dog draw and color', language: 'English', level: 'beginner', cover: 'books/cat_dog_draw.jpeg', pdf: 'books/Cat_and_Dog.pdf' },
+    { title: 'Cat and Dog draw and color', language: 'English', level: 'beginner', cover: 'assets/images/books/cat_dog_draw.jpeg', pdf: 'assets/images/books/Cat_and_Dog.pdf' },
     // ... add more books here
 ];
 
