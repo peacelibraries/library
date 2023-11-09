@@ -53,7 +53,7 @@ main {
 }
 
 .book-cover {
-    width: 100%;
+    width: 150%;
     height: 160px;
     background: #ddd;
     margin-bottom: 10px;
