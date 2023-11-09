@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Book Library</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Book Library for Kids</h1>
+        <select id="languageFilter" onchange="filterBooks()">
+            <option value="all">All Languages</option>
+            <option value="English">English</option>
+            <option value="Kinyarwanda">Kinyarwanda</option>
+        </select>
+        <select id="levelFilter" onchange="filterBooks()">
+            <option value="all">All Levels</option>
+            <option value="beginner">Beginner</option>
+            <option value="advanced">Advanced</option>
+        </select>
+    </header>
+    <main id="book-list">
+        <!-- Books will be populated here by JavaScript -->
+    </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
