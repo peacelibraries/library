@@ -35,10 +35,10 @@ function filterBooks() {
         const bookTitle = document.createElement('h2');
         bookTitle.innerText = book.title;
 
-        // Link to open PDF in a new tab
+        // Link to open PDF in the same tab
         const bookLink = document.createElement('a');
         bookLink.href = book.pdf;
-        bookLink.target = '_blank';
+        // Remove the target attribute to open the PDF in the same tab
         bookLink.textContent = 'Read';
         bookLink.className = 'read-button';
         
