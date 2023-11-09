@@ -3,7 +3,7 @@
 const books = [
     { title: 'Best Friends', language: 'English', level: 'advanced', cover: 'assets/images/books/Best_friends/bestfriends.jpeg', pdf: 'assets/images/books/Best_friends/Best_Friends.pdf' },
     { title: 'Abel Sister', language: 'English', level: 'beginner', cover: 'assets/images/books/abel_sister/Abel-BL.png', pdf: 'assets/images/books/abel_sister/Abel_and_His_Sister_s_Doll.pdf' },
-    { title: 'Imineke Ya Nyogokuru', language: 'Kinyarwanda', level: 'advanced', cover: 'assets/images/books/grandma_banana/Grandma-BL.png', pdf: 'assets/images/books/grandma_banana/imeneke_ya_nyogokuru.pdf' },
+    { title: 'Imineke Ya Nyogokuru', language: 'Kinyarwanda', level: 'advanced', cover: 'assets/images/books/grandma_banana/Grandma-BL.png', pdf: 'assets/images/books/grandma_banana/Imeneke_ya_nyogokuru.pdf' },
     // The book provided by the user
     { title: 'Cat and Dog draw and color', language: 'English', level: 'beginner', cover: 'assets/images/books/cat_dog/cat_dog_draw.jpeg', pdf: 'assets/images/books/cat_dog/Cat_and_Dog.pdf' },
     // ... add more books here
