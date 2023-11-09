@@ -27,11 +27,10 @@ function filterBooks() {
         const bookItem = document.createElement('div');
         bookItem.className = 'book-item';
         
-        const bookCover = document.createElement('div');
+        const bookCover = document.createElement('img');
         bookCover.className = 'book-cover';
-        // Adjust the cover image to fit the container properly
-        bookCover.style.background = 'url(' + book.cover + ') no-repeat center center';
-        bookCover.style.backgroundSize = 'cover';
+        bookCover.src = book.cover;
+        bookCover.alt = 'Book Cover';
         
         const bookTitle = document.createElement('h2');
         bookTitle.innerText = book.title;
